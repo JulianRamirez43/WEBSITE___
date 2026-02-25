@@ -1,0 +1,7 @@
+pip install flask flask-cors
+########################################################################################################
+Una vez instaladas, debes poner estas líneas al principio de tu archivo de Python para "llamarlas":
+
+Python
+from flask import Flask, request, jsonify
+from flask_cors import CORS
